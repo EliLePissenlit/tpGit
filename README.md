@@ -2,12 +2,12 @@
 
 ## Description
 
-Bienvenue sur Party Planner, une application web pour ajouter et visualiser des événements festifs. Les utilisateurs peuvent consulter les prochaines fêtes à venir et gérer leurs propres événements.
+Bienvenue sur Party Planner, une application web pour ajouter et visualiser des fêtes festifs. Les utilisateurs peuvent consulter les prochaines fêtes à venir et gérer leurs propres fêtes.
 
 ### Caractéristiques
 
-- Affichage des événements à venir
-- Création et gestion des événements personnels
+- Affichage des fêtes à venir
+- Création et gestion des fêtes personnels
 - Connexion et inscription des utilisateurs
 
 ## Technologie
@@ -43,10 +43,10 @@ Il est recommandé d'installer WAMP, MAMP ou LAMP, qui incluent à la fois un se
 - `index.php` : Page de connexion.
 - `inscription.php` : Formulaire d'inscription.
 - `profil.php` : Informations de l'utilisateur connecté.
-- `my-events.php` : Liste des événements créés par l'utilisateur.
-- `event-list.php` : Liste de tous les événements.
-- `event-details.php` : Détails d'un événement spécifique.
-- `creation-event.php` : Formulaire d'ajout d'événement.
+- `my-events.php` : Liste des fêtes créés par l'utilisateur.
+- `event-list.php` : Liste de tous les fêtes.
+- `event-details.php` : Détails d'un fête spécifique.
+- `creation-event.php` : Formulaire d'ajout d'fête.
 - `login.php` : Logique de connexion et redirection.
 - `logout.php` : Logique de déconnexion.
 
