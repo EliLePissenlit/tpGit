@@ -1,9 +1,10 @@
 <?php
 // Paramètres de connexion à la base de données
-define('DB_SERVER', 'localhost');    // Serveur de la base de données
-define('DB_USERNAME', '');   // Nom d'utilisateur de la base de données
-define('DB_PASSWORD', '');   // Mot de passe de la base de données
-define('DB_NAME', 'party_planner_db'); // Nom de la base de données
+define('DB_SERVER', 'localhost');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', 'root'); // ou '' selon la configuration de ton MAMP
+define('DB_NAME', 'party_planner_db');
+
 
 /* Tentative de connexion à la base de données MySQL */
 try {
