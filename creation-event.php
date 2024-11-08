@@ -27,13 +27,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     if (empty(trim($_POST["event_date"]))) {
-        $event_date_err = "Veuillez entrer une date pour l'fête.";
+        $event_date_err = "Veuillez entrer une date pour la fête.";
     } else {
         $event_date = trim($_POST["event_date"]);
     }
 
     if (empty(trim($_POST["location"]))) {
-        $location_err = "Veuillez entrer un lieu pour l'fête.";
+        $location_err = "Veuillez entrer un lieu pour la fête.";
     } else {
         $location = trim($_POST["location"]);
     }
